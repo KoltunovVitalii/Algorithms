@@ -25,7 +25,6 @@ class Queue {    static Queue queueIN = new Queue();
             }
         } while (!cmd.equals("Смена закончилась!"));
     }
-
     private static final int DEFAULT_CAPACITY = 15;
     private int size;
     private String[] queue;

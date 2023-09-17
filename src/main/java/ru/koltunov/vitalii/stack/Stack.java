@@ -60,11 +60,9 @@ class Stack {
         }
         stack[size++] = element;
     }
-
     private int top() {
         return stack[size - 1];
     }
-
     private boolean is_empty() {
         return this.size == 0;
     }

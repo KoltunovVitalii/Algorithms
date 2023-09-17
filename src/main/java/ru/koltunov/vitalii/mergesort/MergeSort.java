@@ -18,7 +18,6 @@ public class MergeSort {
     }
 
     public static void scannerTest() {
-
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
         int[] a = new int[x];

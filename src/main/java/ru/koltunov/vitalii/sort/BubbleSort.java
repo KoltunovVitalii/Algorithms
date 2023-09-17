@@ -31,7 +31,6 @@ public class BubbleSort {
             System.out.println(ints[i]);
         }
     }
-
     static boolean compare (int x, int y) {
         return x > y;
     }

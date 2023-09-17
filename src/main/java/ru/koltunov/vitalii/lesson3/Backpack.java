@@ -45,7 +45,6 @@ public class Backpack {
         System.out.println(maxCount + " " + (sumWeight+maxElem));
     }
 
-
     public static void sort(int[] ints) {
         for (int i = 0; i < ints.length - 1; i++) {
             for (int j = i + 1; j < ints.length; j++)

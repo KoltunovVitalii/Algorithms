@@ -39,11 +39,8 @@ class TEST {
             System.out.println("такого числа в списке нет");
         }
     }
-
     private static List<String> listAdd (List<String> list, String s) {
         list.add(s);
         return list;
     }
-
-
 }

@@ -9,7 +9,6 @@ class Main {
 //        simpleTest();
         scannerTest();
     }
-
     public static void simpleTest() {
         HashTable h1 = new HashTable();
         h1.push("aiv");
@@ -65,14 +64,12 @@ class HashTable {
     public HashTable() {
         newHashTable();
     }
-
     private void newHashTable() {
         this.hashTable = new ArrayList<>();
         for (int i = 0; i < capacity; i++) {
             hashTable.add(new MyList());
         }
     }
-
     public static int hashFunction(String s, int capacity) {
         int prime = 1;
         int hash = 0;
@@ -124,7 +121,6 @@ class HashTable {
         }
     }
 }
-
 
 class MyList {
     private ListNode head = null;
@@ -189,7 +185,6 @@ class MyList {
         return l.data;
     }
 }
-
 class ListNode {
     String data = null;
     ListNode nextListNode = null;

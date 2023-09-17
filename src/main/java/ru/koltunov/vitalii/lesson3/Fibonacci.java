@@ -8,7 +8,6 @@ public class Fibonacci {
     public static void main(String[] args) {
         scannerTest();
     }
-
     public static void scannerTest() {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();

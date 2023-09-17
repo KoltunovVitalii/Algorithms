@@ -21,7 +21,6 @@ public class Graph {
 //        graph.addEdge(graph.vertices.get(1), graph.vertices.get(4));
         graph.addEdge(graph.vertices.get(2), graph.vertices.get(3));
         graph.addEdge(graph.vertices.get(4), graph.vertices.get(5));
-
         graph.bfs();
         graph.dfs();
         System.out.println(graph.is_bipartite_graph());
@@ -122,7 +121,6 @@ class Edge {
     Vertex v2;
     boolean road;
 
-
     public Edge(Vertex v1, Vertex v2) {
         this.v1 = v1;
         this.v2 = v2;
@@ -144,7 +142,6 @@ class Edge {
 
 class Vertex {
     int vertex;
-
     public Vertex(int vertex) {
         this.vertex = vertex;
     }

@@ -8,7 +8,6 @@ public class Factorial {
         simpleTest();
 //        scannerTest();
     }
-
     public static void simpleTest() {
         int x = 15;
         int factorialX = factorialX(x);

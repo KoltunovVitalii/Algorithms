@@ -8,14 +8,12 @@ public class SortBySelection {
         scannerTest();
 //        simpleTest();
     }
-
     public static void simpleTest() {
         int[] ints = new int[] {3, 7, 9, 1, 8, 6};
         System.out.println(Arrays.toString(ints));
         selectionSort(ints);
         System.out.println(Arrays.toString(ints));
     }
-
     public static void scannerTest() {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();

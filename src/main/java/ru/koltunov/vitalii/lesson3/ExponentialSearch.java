@@ -20,7 +20,6 @@ public class ExponentialSearch {
             System.out.println("NO");
         }
     }
-
     private static void simpleTest() {
         int[] ints = new int[]{-100, -86, -60, -43, -37, -27, -17, -1, 16, 26};
         int search = 200;

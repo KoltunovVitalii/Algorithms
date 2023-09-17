@@ -23,7 +23,6 @@ class Brackets {
             System.out.println("INCORRECT");
         }
     }
-
     private static boolean checkParNew(String string) {
         final String open = "{([";
         final String close = "})]";

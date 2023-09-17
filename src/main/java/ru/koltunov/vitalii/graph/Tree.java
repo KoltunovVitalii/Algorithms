@@ -27,7 +27,6 @@ public class Tree {
     }
 
     /* start from root
-
      */
     public void dfs() {
         visited.clear();
@@ -62,7 +61,6 @@ public class Tree {
         }
     }
 }
-
 class TreeVertex {
     public int data;
     public List<TreeVertex> edges = new ArrayList<>();
@@ -70,7 +68,6 @@ class TreeVertex {
     public TreeVertex(int data) {
         this.data = data;
     }
-
     public void add_edge(TreeVertex to) {
         edges.add(to);
     }

@@ -86,7 +86,6 @@ public class DynamicArray {
         }
         return data[index];
     }
-
     public void putDatum(int index, int datum) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index " + index + " is out of Stack bound " + size);

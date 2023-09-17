@@ -19,7 +19,6 @@ public class HashFunctionFoString {
     public static int hashFunctionFoString(String s, int p, int intsSize) {
         int prime = 1;
         int hash = 0;
-
         for (int i = 0; i < s.length(); i++) {
             hash += prime * i;
             hash = hash % intsSize;

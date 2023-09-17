@@ -10,7 +10,6 @@ public class Test {
         int y = scanner.nextInt();
         int result = sum(x, y);
         System.out.println(result);
-
     }
 
     public static int sum(int x, int y){

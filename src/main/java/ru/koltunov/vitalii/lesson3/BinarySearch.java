@@ -36,7 +36,6 @@ public class BinarySearch {
     private static boolean binarySearch(int[] ints, int search) {
         int left = 0;
         int right = ints.length;
-
         while ((right - left) > 1) {
             int mid = (right + left) / 2;
             if (search < ints[mid]) {
